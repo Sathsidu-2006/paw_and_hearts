@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   background: #f6f8fb;
   color: #1f2937;
@@ -45,6 +46,11 @@ nav a:hover {
 
 .text-side {
   flex: 1;
+  border: 1px solid;
+  border-radius: 20px;
+  border-color:#e5e7eb;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .05);
+  padding: 25px;
 }
 
 .image-side {
@@ -62,4 +68,9 @@ nav a:hover {
 
 ul {
   padding-left: 20px;
+}
+
+.img2{
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .05);
 }
